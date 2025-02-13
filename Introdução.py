@@ -1,4 +1,3 @@
-
 import streamlit as st
 import requests
 import pandas as pd
@@ -10,10 +9,6 @@ import plotly.graph_objects as go
 from datetime import date, timedelta
 from plotly.subplots import make_subplots
 
-
-st.set_page_config(page_title="Introdução", page_icon="📖")
-
-st.title("📖 Introdução")
 
 st.title('Datathon: Fase Final')
 
@@ -40,5 +35,5 @@ Além da análise exploratória, foi criado um modelo preditivo utilizando técn
 
 Predição do Ponto de Virada (IPV) → Identifica se o aluno atingiu um nível crítico de desenvolvimento acadêmico.
 Classificação da Pedra-Conceito → Representa o nível de progresso do aluno, categorizando-o em Quartzo, Ágata, Ametista ou Topázio com base em seu desempenho.
-Este projeto combina ciência de dados, aprendizado de máquina e visualização interativa para fornecer insights valiosos que auxiliam na tomada de decisões e no aprimoramento das estratégias educacionais da Passos Mágicos. 🚀📊
+Este projeto combina ciência de dados, aprendizado de máquina e visualização interativa para fornecer insights valiosos que auxiliam na tomada de decisões e no aprimoramento das estratégias educacionais da Passos Mágicos. 
             """)
