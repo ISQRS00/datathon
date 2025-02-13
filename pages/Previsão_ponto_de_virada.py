@@ -72,7 +72,7 @@ label_encoder_turma = load_label_encoder_turma()
 acuracia = load_accuracy()
 
 # 📌 2️⃣ Criar abas para organização
-st.title("📚 Predição do Ponto de Virada")
+st.title("Predição do Ponto de Virada")
 
 abas = st.tabs(["Introdução", "Predição"])
 
