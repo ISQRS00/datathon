@@ -72,7 +72,7 @@ label_encoder_turma = load_label_encoder_turma()
 acuracia = load_accuracy()
 
 # 📌 2️⃣ Criar abas para organização
-st.title("Predição do Ponto de Virada")
+st.title("📚 Predição do Ponto de Virada")
 
 abas = st.tabs(["Introdução", "Predição"])
 
@@ -122,6 +122,18 @@ with abas[0]:
     Para mais detalhes sobre o treinamento do modelo e a análise dos dados, 
     acesse o notebook completo no GitHub:  
     👉 [Clique aqui para ver o código](https://github.com/ISQRS00/datathon/blob/main/nootbooks/modelo_final_2_ponto_de_virada.ipynb)  
+                
+    
+    ---
+    
+    ###  Base de entrada e saída utilizadas nesse modelo
+    
+    O modelo de previsão de ponto de virada foi desenvolvido utilizando uma base de dados mais recente, recentemente liberada. acesse os arquivos no GitHub:
+    
+    👉 [Clique aqui para baixar o arquivo de entrada](https://github.com/ISQRS00/datathon/blob/main/dados_de_entrada/PEDE%202024%20-%20DATATHON.xlsx)  
+    
+    👉 [Clique aqui para baixar o arquivo de saída](https://github.com/ISQRS00/datathon/blob/main/datasets/base_modelo_ponto_de_virada.csv)  
+                
 
     """)
 
