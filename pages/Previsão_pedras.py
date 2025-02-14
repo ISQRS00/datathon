@@ -92,8 +92,18 @@ with abas[0]:
     👉 [Clique aqui para ver o código](https://github.com/ISQRS00/datathon/blob/main/nootbooks/modelo_final_1_pedra.ipynb)  
 
 
-    """)
+    ---
+    
+    ###  Base de entrada e saída utilizadas nesse modelo
+    
+    O modelo de previsão de pedras foi desenvolvido utilizando a base antiga. acesse os arquivos no GitHub:
+    
+    👉 [Clique aqui para baixar o arquivo de entrada](https://github.com/ISQRS00/datathon/blob/main/dados_de_entrada/PEDE_PASSOS_BASE_ANTIGA.csv)  
+    
+    👉 [Clique aqui para baixar o arquivo de saída](https://github.com/ISQRS00/datathon/blob/main/datasets/base_modelo_ponto_de_virada.csv)  
+                
 
+    """)
 #  Aba de Predição
 with abas[1]:
     st.write("Insira os dados abaixo (valores de 0 a 10) para obter uma predição:")
