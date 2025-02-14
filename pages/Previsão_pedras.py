@@ -100,7 +100,7 @@ with abas[0]:
     
     👉 [Clique aqui para baixar o arquivo de entrada](https://github.com/ISQRS00/datathon/blob/main/dados_de_entrada/PEDE_PASSOS_BASE_ANTIGA.csv)  
     
-    👉 [Clique aqui para baixar o arquivo de saída](https://github.com/ISQRS00/datathon/blob/main/datasets/base_modelo_ponto_de_virada.csv)  
+    👉 [Clique aqui para baixar o arquivo de saída](https://github.com/ISQRS00/datathon/blob/main/datasets/base_modelo_pedra.csv)  
                 
 
     """)
