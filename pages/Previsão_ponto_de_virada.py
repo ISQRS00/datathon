@@ -152,7 +152,7 @@ with abas[1]:
     dict_turma = dict_turma = {0: 'A', 1: 'B', 2: 'C', 3: 'D', 4: 'E', 5: 'F', 6: 'G', 7: 'H', 8: 'I', 9: 'J', 10: 'K', 11: 'L', 12: 'M', 13: 'N', 14: 'O', 15: 'P', 16: 'Q', 17: 'R', 18: 'S', 19: 'T', 20: 'U', 21: 'V', 22: 'X', 23: 'Y', 24: 'Z'}
 
     # Criar um input de texto para a letra da Turma, com padrão "A"
-    letra_turma = st.text_input("Digite a letra da Turma (A a Z):", value="A", max_chars=1)
+    letra_turma = st.text_input("Digite a letra da Turma (A a Z, exceto W):", value="A", max_chars=1)
 
     # Verificar se a letra da turma é válida e converter para número correspondente
     if letra_turma.upper() in dict_turma.values():
