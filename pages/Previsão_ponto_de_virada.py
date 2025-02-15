@@ -161,7 +161,7 @@ with abas[1]:
     else:
         turma_transformada = None
         valid_turma = False
-        st.error("Por favor, insira uma letra entre A e Z, exceto W. Digite letra válida e aperte enter.")
+        st.error("Não possuimos Turma com a letra W, por favor, insira uma letra entre A e Z, exceto W. Digite letra válida e aperte enter.")
                    
     # Criar DataFrame com os inputs do usuário
     entrada_usuario = pd.DataFrame([[num_ian, num_ida, num_ieg, turma_transformada, num_fase]], 
