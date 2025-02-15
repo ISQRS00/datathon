@@ -86,7 +86,7 @@ with abas[0]:
 
     ---
     
-    ###Como ele é calculado?
+    ### Como ele é calculado?
     O modelo de previsão analisa diferentes fatores que influenciam o Ponto de Virada, incluindo:
 
     - **IAN (Indicador de Adequação de Nível):** Mede se o aluno está na fase escolar ideal para sua idade.
